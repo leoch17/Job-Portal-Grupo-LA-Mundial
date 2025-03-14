@@ -24,9 +24,9 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3">
             <div class="container">
                 {{-- <a class="navbar-brand" href="index.html">CareerVibe</a> --}}
-                <a class="navbar-brand" href="{{ route('home') }}"
-                    style="width: 10%; margin-bottom: -3%; margin-top: -3%">
-                    <img src="{{ asset('assets/images/GLM-2.png') }}" style="width: 100%">
+                <a class="navbar-brand image-glm-home" href="{{ route('home') }}"
+                    style="margin-bottom: -3%; margin-top: -3%">
+                    <img src="{{ asset('assets/images/GLM-2.png') }}">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
